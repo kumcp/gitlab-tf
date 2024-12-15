@@ -1,0 +1,8 @@
+project_name  = "gitlab-runner"
+instance_type = "t2.micro"
+
+runner_token    = 
+runner_name     = "aws-shell-runner"
+runner_executor = "shell"
+runner_server   = "https://gitlab.com/"
+runner_tags     = ["aws-shell"]
